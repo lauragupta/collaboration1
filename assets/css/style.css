@@ -1,11 +1,18 @@
 * {
-    background-color: rgb(32, 32, 32);
+    /* background-color: rgb(32, 32, 32); */
     color: white;
-    text-align: center;
+    font-family: 'Helvetica','Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS',  'sans-serif';
+    /* text-align: center; */
+}
+
+body {
+    background-color: rgb(32, 32, 32);
 }
 
 h1, h2, main p {
-    color: rgb(201, 25, 201);
+    background-color: rgb(32, 32, 32);
+    color: rgb(186, 25, 201);
+
 }
 
 h2 {
@@ -17,10 +24,10 @@ h2 {
     border-width: 2px;
     border-style:solid;
     border-color: white;
-    padding: 20px 40px 20px 40px;
-    width: 170px;
-    border-radius: 10px;
-    text-align: center;
+    padding: 0px 0px 0px 0px;
+    width: 250px;
+    border-radius: 5px;
+    /* text-align: center; */
     
 }
 
@@ -36,7 +43,7 @@ main section {
     justify-content: center;
 }
 
-main section div {
+main section div.container {
     width: 300px;
     height: 300px;
     border-width: 2px;
@@ -45,5 +52,28 @@ main section div {
     margin: 10px;
     margin-top: 30px;
     padding: 0px 10px 10px 10px;
+}
+
+main section div p {
+    position: relative;
+    bottom: 50px;
+}
+
+code {
+    position: relative;
+    font-family: "courier";
+    font-size: 13px;
+    left: 5px;
+    bottom: 10px;
+    /* display: block; */
+}
+
+main section div.code-box {
+    position: relative;
+    left: 10px;
+    bottom: 50px;
+    width: 280px;
+    /* height: 120px;  */
+    background-color: rgb(231, 22, 238);
 }
 
