@@ -35,6 +35,19 @@ h1, h2, main p {
     min-width: 250px;
     border-radius: 5px;
     /* text-align: center; */
+    transition: all 0.5s ease-in-out; 
+
+    
+}
+.container h2:hover { 
+    box-shadow:  0px 0px 10px ;
+    text-shadow: 0px 0px 20px;
+    /* border-color: rgb(255, 0, 0); */
+    color: rgb(255, 250, 179);
+    transition: all 0.5s ease-in-out; 
+    /* transition-timing-function: cubic-bezier(0.42,0,0.58,1); */
+
+
     
 }
 
