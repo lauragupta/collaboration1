@@ -7,7 +7,7 @@
 }
 
 header {
-    position:fixed;
+    /* position:fixed; */
     background-color: rgb(32, 32, 32);
     text-align: center;  
     padding:0 10% 0 10%;
@@ -18,11 +18,10 @@ header {
 body {
     background-color: rgb(32, 32, 32);
     margin: 0;
+    
 }
 
-main {
-    padding-top: 170px;
-}
+
 
 h1, h2, main p {
     background-color: rgb(32, 32, 32);
@@ -71,6 +70,7 @@ main section {
     flex-wrap: wrap;
     padding: 10px;
     justify-content: center;
+    
 }
 
 main section div.container {
