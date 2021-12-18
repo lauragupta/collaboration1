@@ -95,6 +95,7 @@ main section div p {
     /* height: 50px; */
     /* border: 1px solid; */
     /* display: none; */
+    top: 10px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -129,6 +130,7 @@ main section div.code-box {
     /* max-height: 210px; */
     /* z-index: 0; */
     /* display: none; */
+    
     
 }
 
