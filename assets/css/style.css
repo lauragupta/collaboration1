@@ -5,6 +5,13 @@
     /* text-align: center; */
 }
 
+header {
+    /* background-color: rgb(255, 255, 255); */
+    text-align: center;  
+    padding:0 10% 0 10%;
+    /* width: 60%; */
+}
+
 body {
     background-color: rgb(32, 32, 32);
 }
@@ -24,7 +31,7 @@ h2 {
     border-width: 2px;
     border-style:solid;
     border-color: white;
-    padding: 0px 0px 0px 0px;
+    padding: 2px 0px 2px 10px;
     width: 250px;
     border-radius: 5px;
     /* text-align: center; */
@@ -74,6 +81,9 @@ main section div.code-box {
     bottom: 50px;
     width: 280px;
     /* height: 120px;  */
-    background-color: rgb(231, 22, 238);
+    /* background-color: rgb(231, 22, 238); */
+  
+    background-image: linear-gradient(rgba(186, 25, 201, 0.253) 0%, rgb(186, 25, 201) 100%);
+    border-radius: 5px;
 }
 
