@@ -22,17 +22,17 @@ h1, h2, main p {
 
 }
 
-h2 {
-    position: relative;
+.container h2 {
+    position: absolute;
   left: 20px;
-  bottom: 40px;
+  top: -50px;
 
     /* display: inline-block; */
     border-width: 2px;
     border-style:solid;
     border-color: white;
-    padding: 2px 0px 2px 10px;
-    width: 250px;
+    padding: 2px 10px 2px 10px;
+    min-width: 250px;
     border-radius: 5px;
     /* text-align: center; */
     
@@ -43,6 +43,7 @@ h2 {
 
 
 main section {
+    position: relative;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -51,39 +52,65 @@ main section {
 }
 
 main section div.container {
+    position: relative;
+    
     width: 300px;
-    height: 300px;
+    /* height: 370px; */
     border-width: 2px;
     border-style:dashed;
     border-color: white;
     margin: 10px;
     margin-top: 30px;
     padding: 0px 10px 10px 10px;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
 }
 
 main section div p {
     position: relative;
-    bottom: 50px;
+    /* bottom: 60px; */
+    /* height: 50px; */
+    /* border: 1px solid; */
+    /* display: none; */
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 code {
     position: relative;
+    justify-content: center;
     font-family: "courier";
     font-size: 13px;
-    left: 5px;
-    bottom: 10px;
+    left: 20px;
+    /* bottom: 20px; */
+    /* height: 210px;  */
     /* display: block; */
+    /* z-index: 1; */
 }
 
 main section div.code-box {
+    display: flex;  
+    flex-direction: column;
     position: relative;
-    left: 10px;
-    bottom: 50px;
-    width: 280px;
+    /* left: 10px; */
+    /* bottom: 60px; */
+    /* width: 280px; */
     /* height: 120px;  */
     /* background-color: rgb(231, 22, 238); */
+    justify-content: center;
   
     background-image: linear-gradient(rgba(186, 25, 201, 0.253) 0%, rgb(186, 25, 201) 100%);
     border-radius: 5px;
+    /* height: 300px; */
+    height: 100%;
+    /* max-height: 210px; */
+    /* z-index: 0; */
+    /* display: none; */
+    
+}
+
+footer {
+    text-align: center;
 }
 
